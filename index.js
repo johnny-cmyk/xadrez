@@ -64,7 +64,20 @@ class Peao extends Peca {
 
 peao = new Peao('branca', 1, 1);
 console.log(peao);
-
-const tabuleiro = new Tabuleiro();
+const peca = new Tabuleiro();
 alert(tabuleiro.nome);
-tabuleiro.colocarPeça(peao,1,1);
+tabuleiro.colocarPeca(peao,1,1);
+tabuleiro.colocarPeca(peao,1,2);
+tabuleiro.colocarPeca(peao,1,3);
+tabuleiro.colocarPeca(peao,1,4);
+tabuleiro.colocarPeca(peao,1,5);
+tabuleiro.colocarPeca(peao,1,6);
+tabuleiro.colocarPeca(peao,1,7);
+tabuleiro.colocarPeca(peao,1,8);
+
+
+
+
+
+
+
